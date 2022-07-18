@@ -4,6 +4,7 @@
   "defaultCommandTimeout": 2000, "pageLoadTimeout": 30000,
   "ignoreTestFiles": [],
   "videosFolder": "cypress/videos/testExecutionVideos",
+  "video": false,
   "viewportHeight": 1080, "viewportWidth": 1920,
 
   "reporter": "cypress-multi-reporters",
@@ -16,3 +17,4 @@
   },
   "projectId": "j8mnsk"
 }
+
