@@ -2,7 +2,7 @@
 
 const { should } = require("chai");
 
-describe("Alias ad invoke", () => {
+describe("Alias ad Invoke", () => {
     it("Validate a specific hair care product", () => {
         cy.visit("https://www.automationteststore.com/");
         cy.get("a[href*='product/category&path=']").contains("Hair Care").click();
