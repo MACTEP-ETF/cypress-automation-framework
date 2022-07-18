@@ -1,0 +1,17 @@
+Open as admin "Windows PowerShell ISE (x86)"
+
+cd to PATH:
+PS C:\Program Files (x86)\Google\Chrome\Application>
+
+Paste command (edit if necessary):
+New-Item -itemtype symboliclink -path . -name chrome.exe -value 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+
+
+
+INFO:
+
+[Link]
+"C:\Program Files\Google\Chrome\Application\chrome.exe"
+
+[Target]
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"

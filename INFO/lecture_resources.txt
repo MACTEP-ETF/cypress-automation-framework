@@ -1,0 +1,5 @@
+https://docs.cypress.io/guides/guides/environment-variables.html#Setting
+
+./node_modules/.bin/cypress run --browser chrome 
+--spec cypress/integration/webdriver-uni/contact-us.js 
+--env first_name=Tim
