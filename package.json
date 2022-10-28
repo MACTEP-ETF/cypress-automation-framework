@@ -21,7 +21,7 @@
     "cypress-custom-config": "npx cypress open --config-file cypress/config/staging.json",
     "cypress-multi-browser": "npm run WebDriverOnly -- --browser electron --headed & npm run WebDriverOnly -- --browser firefox --headed"
   },
-  "author": "Vladimirs Fedorovičs (A/S Mapon)",
+  "author": "Vladimirs Fedorovičs",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^9.7.0",
